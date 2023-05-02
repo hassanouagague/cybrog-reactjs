@@ -1,0 +1,33 @@
+.card-wrapper{
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-secondary);
+    padding: calc(var(--padding-primary)/2);   
+    margin: calc(var(--margin-primary)/5);
+   }
+   
+   
+   
+   .most-popular-item{
+       flex: 1 1 auto;
+  
+   }
+   
+   
+   .most-popular-item-image{
+       width: 100%;
+       border-radius: var(--border-radius-secondary);
+       margin-bottom: calc(var(--margin-primary)/2);
+   }
+   
+   .most-popular-item-content {
+       display: flex;
+       justify-content: space-between;
+   }
+   .most-popular-item-content ul li{
+    flex-wrap: nowrap;
+}
+   
+   .most-popular-item-title {
+       font-size: 18px;
+       line-height: 1.5rem;
+   }
